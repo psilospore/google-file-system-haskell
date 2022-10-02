@@ -3,7 +3,56 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: grpc-haskell-0.1.0@sha256:af109db9bf7d7d00a5088fb30dab1a03e3c54b19c66dc1ac0d8d61217524d11b,6334
+    pantry-tree:
+      size: 1934
+      sha256: d02f71fad7f9c8d734c30d6c039f1ad98e210e416ddb960c961d0669a4c184fc
+  original:
+    hackage: grpc-haskell-0.1.0@sha256:af109db9bf7d7d00a5088fb30dab1a03e3c54b19c66dc1ac0d8d61217524d11b,6334
+- completed:
+    hackage: grpc-haskell-core-0.1.0@sha256:50adbefd11be9e8b72ea98b7c3b5a4b2879fea211de4552b9759b91f2d4d8c51,3304
+    pantry-tree:
+      size: 2330
+      sha256: 5225c7c8413b57b43e94ec64a7efbc107fa764ccf66eb1fa6a7be22e5a98c683
+  original:
+    hackage: grpc-haskell-core-0.1.0@sha256:50adbefd11be9e8b72ea98b7c3b5a4b2879fea211de4552b9759b91f2d4d8c51,3304
+- completed:
+    hackage: proto3-suite-0.5.1@sha256:045994919b105b89c44e3ae94f50258b86a6ebfd14425845e13e0921d2e8610e,7015
+    pantry-tree:
+      size: 3402
+      sha256: 7387c16e46bdcbcfdfc87b42a1dfd17bf6f7168a50b409469d993f7f73a6f133
+  original:
+    hackage: proto3-suite-0.5.1@sha256:045994919b105b89c44e3ae94f50258b86a6ebfd14425845e13e0921d2e8610e,7015
+- completed:
+    hackage: proto3-wire-1.4.0@sha256:f8f9facfe86151c7172fc796e1d33b2be54aa919c0a17d39d21b33e928ee66a4,3082
+    pantry-tree:
+      size: 1017
+      sha256: b834fa8c413a6c67cc76cf42725199f5154a03aaf0e2f144c4a284347c8d3b10
+  original:
+    hackage: proto3-wire-1.4.0@sha256:f8f9facfe86151c7172fc796e1d33b2be54aa919c0a17d39d21b33e928ee66a4,3082
+- completed:
+    hackage: clock-0.8@sha256:b4ae207e2d3761450060a0d0feb873269233898039c76fceef9cc1a544067767,4113
+    pantry-tree:
+      size: 446
+      sha256: d9ac8ce6a19812fe74cb1e74228e6e624eda19021ff4d12e24611f88abacd38a
+  original:
+    hackage: clock-0.8@sha256:b4ae207e2d3761450060a0d0feb873269233898039c76fceef9cc1a544067767,4113
+- completed:
+    hackage: swagger2-2.7@sha256:61ef3bcfcd2608efd26fdb226c1076a529544e2f9f0ae99da6e601784a4097e1,4446
+    pantry-tree:
+      size: 2192
+      sha256: 060eed9c85dcd9b6f324bc60781214ce8a5e7d77031acfa4c560bc5d53bc4d5f
+  original:
+    hackage: swagger2-2.7@sha256:61ef3bcfcd2608efd26fdb226c1076a529544e2f9f0ae99da6e601784a4097e1,4446
+- completed:
+    hackage: word-compat-0.0.5@sha256:5c684b0508ff1befe40e7c2f749ce20906dd3849c515d9cb9c0749aa146981c5,1427
+    pantry-tree:
+      size: 355
+      sha256: 9fe79e87470ccee07d33db0275cabee07810349cf637efc67d55a803409b2192
+  original:
+    hackage: word-compat-0.0.5@sha256:5c684b0508ff1befe40e7c2f749ce20906dd3849c515d9cb9c0749aa146981c5,1427
 snapshots:
 - completed:
     size: 619403

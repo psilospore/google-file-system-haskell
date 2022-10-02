@@ -21,6 +21,12 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- bytestring
+- grpc-haskell
+- grpc-haskell-core
+- proto3-suite
+- proto3-wire
+- text
 
 ghc-options:
 - -Wall
