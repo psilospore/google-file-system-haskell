@@ -9,13 +9,8 @@ import Data.Coerce (coerce)
 chunkSize = 64000000
 
 -- file path e.g. /foo/bar
+-- TODO ideally use prefix compression
 newtype FileName = FileName [String]
-
--- Representation of file in Master
-data File' = File' {
-    path :: FileName,
-    chunks :: [Chunk]
-}
 
 data File = File {
     path :: FileName,
